@@ -7,3 +7,6 @@ img = io.imread("images/test.png")
 print(img.shape)
 print(img.dtype)
 print(img[0,0])
+
+plt.imshow(img,cmap="gray")
+plt.show()
